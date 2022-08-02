@@ -1,0 +1,103 @@
+.home-header {
+    height: 175px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.header-title {
+    font-size: 32px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.header-menu-title {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.header-mobile {
+    background-color: #FFC848;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+}
+
+.home-patch-mobile {
+    background-color: white;
+    padding-left: 24px;
+    padding: 24px 24px 12px;
+}
+
+.path-title-mobile {
+    color: grey;
+}
+
+.btn-header {
+    width: 120px !important;
+}
+
+.btn-banner {
+    width: 280px !important;
+}
+
+#a-header {
+    text-decoration: none;
+    color: black;
+}
+
+#a-header>p {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.language-title>p {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.form-switch .form-check-input {
+    width: 3.5em !important;
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27rgba%280, 0, 0, 1.25%29%27/%3e%3c/svg%3e') !important;
+}
+
+.form-switch .form-check-input:checked {
+    width: 3.5em !important;
+    background-image: url('data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27><circle r=%273%27 fill%3D"%23ffffff"/></svg>') !important;
+}
+
+.form-check-input {
+    height: 1.5em !important;
+}
+
+.form-switch {
+    background-color: white !important;
+}
+
+.form-check-input:checked {
+    background-color: black !important;
+    border-color: black !important;
+}
+
+.form-check-input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    box-shadow: 0px 0px transparent !important;
+}
+
+.home-patch {
+    margin-left: 100px;
+    color: grey
+}
+
+.header {
+    padding: 48px 48px 10px 48px;
+}
+
+.banner {
+    padding: 48px;
+    background-color: #FFC848;
+}
+
+.btn-banner {
+    width: 120px;
+}
