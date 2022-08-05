@@ -1,3 +1,4 @@
+/* header */
 .home-header {
     height: 175px;
     padding-left: 24px;
@@ -29,10 +30,6 @@
     padding: 24px 24px 12px;
 }
 
-.path-title-mobile {
-    color: grey;
-}
-
 .btn-header {
     width: 120px !important;
 }
@@ -47,13 +44,12 @@
 }
 
 #a-header>p {
-  overflow: auto;
-  white-space: nowrap;
-}
-
-.language-title>p {
     overflow: auto;
     white-space: nowrap;
+}
+
+.path-title-mobile {
+    color: grey;
 }
 
 .form-switch .form-check-input {
@@ -64,6 +60,7 @@
 .form-switch .form-check-input:checked {
     width: 3.5em !important;
     background-image: url('data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27><circle r=%273%27 fill%3D"%23ffffff"/></svg>') !important;
+    background-color: #F3F3F3
 }
 
 .form-check-input {
@@ -71,7 +68,7 @@
 }
 
 .form-switch {
-    background-color: white !important;
+    background-color: #F3F3F3 !important;
 }
 
 .form-check-input:checked {
@@ -93,6 +90,7 @@
     padding: 48px 48px 10px 48px;
 }
 
+/* banner */
 .banner {
     padding: 48px;
     background-color: #FFC848;
@@ -100,4 +98,32 @@
 
 .btn-banner {
     width: 120px;
+}
+
+/* language tool */
+#lt-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#input-text {
+    width: 80%;
+    height: 250px;
+    border-radius: 10px;
+    text-align: left;
+    resize: none;
+    padding: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 0px rgb(181, 180, 180);
+    outline-color: transparent;
+    border: 0px;
+}
+
+#input-text:focus {
+    outline-width: 1;
+    outline-color: transparent;
+}
+
+#all {
+    background-color: #F3F3F3;
 }
