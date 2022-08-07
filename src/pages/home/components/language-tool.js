@@ -39,7 +39,7 @@ function LanguageTool() {
                   classNameIcon={<i className="fas fa-check ms-2"></i>}
                 />
                 <CusButton
-                  title="clear"
+                  title="Clear"
                   classNameContainer="col-lg-6 col-sm-6 col-6 col-xl-8"
                   btnStyle={{
                     backgroundColor: "transparent",

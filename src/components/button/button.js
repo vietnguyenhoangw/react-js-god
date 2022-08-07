@@ -12,7 +12,7 @@ function CusButton(props) {
           className={`btn btn-warning me-2 rounded-0 btn-block mt-4 ${props?.className}`}
           style={props?.btnStyle}
         >
-          {props?.title ?? "Button Title"}
+          {props?.title ?? ""}
           {props?.classNameIcon && props?.classNameIcon}
         </a>
       </p>

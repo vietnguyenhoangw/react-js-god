@@ -6,7 +6,7 @@ import "./style.css";
 
 function HomePage() {
   return (
-    <div id="all">
+    <div id="all" className="container">
       <HomeHeader />
       <HomeBanner />
       <LanguageTool />
