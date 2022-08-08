@@ -71,7 +71,7 @@ function HomeHeader() {
           </div>
         </div>
         {/* header */}
-        <div className="home-patch row-12">
+        <div className="home-patch ">
           <p>Home &gt; Inclusive language tool</p>
         </div>
       </div>

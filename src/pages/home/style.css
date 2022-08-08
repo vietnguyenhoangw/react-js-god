@@ -3,6 +3,7 @@
     height: 175px;
     padding-left: 24px;
     padding-right: 24px;
+    width: 100% !important;
 }
 
 .header-title {
@@ -83,7 +84,15 @@
 
 .home-patch {
     margin-left: 100px;
-    color: grey
+    color: grey;
+    width: 50% !important;
+}
+
+.home-patch>p {
+    margin-right: 100px;
+    color: grey;
+    width: 50% !important;
+
 }
 
 .header {
@@ -131,4 +140,12 @@
 .footer-column>p {
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer-desktop {
+    width: 100%;
+}
+
+.footer-content-desktop>p {
+    width: 70%;
 }
