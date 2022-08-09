@@ -128,6 +128,19 @@
     border: 0px;
 }
 
+#input-text-full {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    text-align: left;
+    resize: none;
+    padding: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 0px rgb(181, 180, 180);
+    outline-color: transparent;
+    border: 0px;
+}
+
 #input-text:focus {
     outline-width: 1;
     outline-color: transparent;

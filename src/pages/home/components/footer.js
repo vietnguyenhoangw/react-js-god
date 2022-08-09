@@ -4,7 +4,7 @@ function HomeFooter() {
   return (
     <div style={{ backgroundColor: "#D7B2FC" }}>
       {/* desktop */}
-      <div className="d-none d-lg-block">
+      <div className="d-none d-lg-block container">
         <div className="row pt-5 pb-4 ps-5 pe-5 footer-desktop">
           <div className="col-lg-3 footer-column">
             <p className="fw-bold h5 mb-4">About us</p>
